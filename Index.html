@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>SatyaPS - Growtopia Private Server</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="rgb-text">SatyaPS</h1>
+    <p class="description">
+      SatyaPS adalah server private Growtopia yang dibuat untuk memberikan pengalaman terbaik dengan fitur eksklusif dan komunitas aktif! Nikmati permainan GTPS dengan mudah dan cepat!
+    </p>
+
+    <div class="status">
+      Status Server: <span class="online">Online</span>
+    </div>
+
+    <div class="buttons">
+      <a href="https://www.mediafire.com/file/99xylwpysecvgne/SpotyPS.txt/file" class="btn" target="_blank">
+        Download VHost (SatyaPS)
+      </a>
+
+      <button onclick="copyText('https://growsoft.cc/android.txt')" class="btn">
+        Copy Powertunnel<br>
+        <small>https://growsoft.cc/android.txt</small>
+      </button>
+
+      <button onclick="copyText(`91.134.85.13 growtopia1.com\n91.134.85.13 growtopia2.com\n91.134.85.13 www.growtopia1.com\n91.134.85.13 www.growtopia2.com`)" class="btn">
+        Copy Windows Host<br>
+        <small>
+          91.134.85.13 growtopia1.com<br>
+          91.134.85.13 growtopia2.com<br>
+          91.134.85.13 www.growtopia1.com<br>
+          91.134.85.13 www.growtopia2.com
+        </small>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    function copyText(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Berhasil disalin!");
+      });
+    }
+  </script>
+
+</body>
+</html>
